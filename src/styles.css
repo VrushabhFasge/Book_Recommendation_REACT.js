@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap");
+
+html {
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.Header-Title {
+  background: linear-gradient(to left, #087e8b, #0b3954);
+  margin-top: auto;
+  color: white;
+  font-family: "Yusei Magic", sans-serif;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+}
+
+button {
+  font-family: "Yusei Magic", sans-serif;
+  background-color: #132743;
+  color: white;
+}
+
+.button:hover {
+  transform: scale(1.1);
+  opacity: 1;
+  filter: blur(0.5px);
+}
+
+.output {
+  font-family: "Yusei Magic", sans-serif;
+  font-size: 8px;
+  box-sizing: border-box;
+  color: #0e3854;
+  background: white;
+  max-width: 240px;
+  margin: auto;
+  margin-top: 2rem;
+  border-radius: 0.5rem;
+  overflow: auto;
+}
+
+.clear {
+  clear: both;
+  height: 8rem;
+}
+
+.footer {
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+  left: 0;
+  background: linear-gradient(to right, #087e8b, #0b3954);
+  color: white;
+  font-family: "Yusei Magic", sans-serif;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.unordered li {
+  display: inline;
+  padding: 0.5rem;
+}
+
+.unordered a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  margin: auto;
+}
